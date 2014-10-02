@@ -1,0 +1,4 @@
+%h1 Articles
+- @articles.each do |article|
+  %h2= h(article.title)
+  %p= h(article.content)
